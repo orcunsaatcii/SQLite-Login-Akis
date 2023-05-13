@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/fakulteler_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FAKÜLTELER"
+                android:textColor="@color/black"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/dishekimligi_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dishekimligi" />
+
+            <TextView
+                android:id="@+id/dishekimligi_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dishekimligi"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/egitim_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/egitim" />
+
+            <TextView
+                android:id="@+id/egitim_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nFakültemiz 1914 yılında Darülmuallimat adıyla Hisartepe'de, şimdi yıkılmış olan bir binada açılmıştır. Burada Öğretime 1917 yılına kadar devam eden Darülmuallimat (Kız Öğretmen Okulu), çok az sayıda mezun vermiş ve İstiklal Savaşı'ndan önce kapanmıştır. 21 Haziran 1948'de  yine Hisartepe'de, şimdi Ortaokula ait bir binada “Bolu Erkek Öğretmen Okulu” olarak tekrar açılan bu kurum, aynı yerde 1964-1965 öğretim yılına kadar öğretime devam etmiştir.\n\n
+
+1965-1966 öğretim yılında, bugün için “A.İ.B.Ü. Bolu Şehir Kampüsü” olarak adlandırılan binalara taşınan okul, “Bolu Erkek Öğretmen Okulu” olarak eğitim-öğretim hizmetlerine devam ederken, 1973-1974 öğretim yılında dört yıla çıkarılmıştır. 1976-1977 öğretim yılında ise, 12 Haziran 1973 tarih ve 1739 Sayılı Milli Eğitim Temel Kanunu'na göre, Temel Eğitim Okulları'nın I. Kademesi'ne öğretmen yetiştiren Eğitim Enstitüsü'ne dönüştürülmüştür.\n\n
+
+1982 yılında 2547 sayılı Yükseköğretimi yeniden düzenleyen kanun ile Gazi Üniversitesi'ne bağlanarak Eğitim Yüksekokulu adını almıştır. 03.07.1992 tarih ve 3837 sayılı Kanun ile Abant İzzet Baysal Üniversitesi'ne bağlanan okul, aynı kanunun 16. maddesinin (a) fıkrası gereğince, fakülte haline getirilerek, Eğitim Fakültesi adını almıştır.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/fenedebiyat_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fenedebiyat" />
+
+            <TextView
+                android:id="@+id/fenedebiyat_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nFakültemiz 1914 yılında Darülmuallimat adıyla Hisartepe'de, şimdi yıkılmış olan bir binada açılmıştır.\n\n Burada Öğretime 1917 yılına kadar devam eden Darülmuallimat (Kız Öğretmen Okulu), çok az sayıda mezun vermiş ve İstiklal Savaşı'ndan önce kapanmıştır. 21 Haziran 1948'de  yine Hisartepe'de, şimdi Ortaokula ait bir binada “Bolu Erkek Öğretmen Okulu” olarak tekrar açılan bu kurum, aynı yerde 1964-1965 öğretim yılına kadar öğretime devam etmiştir.
+
+1965-1966 öğretim yılında, bugün için “A.İ.B.Ü. Bolu Şehir Kampüsü” olarak adlandırılan binalara taşınan okul, “Bolu Erkek Öğretmen Okulu” olarak eğitim-öğretim hizmetlerine devam ederken, 1973-1974 öğretim yılında dört yıla çıkarılmıştır. 1976-1977 öğretim yılında ise, 12 Haziran 1973 tarih ve 1739 Sayılı Milli Eğitim Temel Kanunu'na göre, Temel Eğitim Okulları'nın I. Kademesi'ne öğretmen yetiştiren Eğitim Enstitüsü'ne dönüştürülmüştür.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/geredeuyg_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/geredeuyg" />
+
+            <TextView
+                android:id="@+id/geredeuyg_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nGerede Uygulamalı Bilimler Yüksekokulu, Bolu Abant İzzet Baysal Üniversitesine bağlı olarak 2809 sayılı kanuna eklenen Ek Madde 30 ile 04.04.2011 tarih ve 2011-1595 sayılı kararname eki ile kurulmuştur.\n\n
+
+29.06.2020 tarih ve 2704 sayılı Cumhurbaşkanı Kararı ile Üniversitemiz Gerede Uygulamalı Bilimler Yüksekokulu kapatılarak Gerede Uygulamalı Bilimler Fakültesi kurulmuştur.\n\n
+
+Fakültemizde,  Finans ve Bankacılık(Katılım Bankacılığı Bilim Dalı Doktora ve Bankacılık ve Finans Bilim Dalı Yüksek Lisans), Pazarlama, Uluslararası Ticaret ve Lojistik, Havacılık Yönetimi, Yönetim Bilişim Sistemleri, Gayrimenkul Geliştirme ve Yönetim ve Yeni Medya ve Gazetecilik olmak üzere yedi bölümümüz bulunmaktadır.\n\n
+
+Fakültemiz Finans ve Bankacılık Bölümüne 2012-2013 öğretim yılında ek kontenjanla öğrenci alımına başlamış, 2016-2017 öğretim yılında ise Uluslararası Ticaret ve Lojistik Bölümü ile Pazarlama Bölümüne de öğrenci alımı yapılmıştır. Havacılık Yönetimi, Yönetim Bilişim Sistemleri, Gayrimenkul Geliştirme ve Yönetim ve Yeni Medya ve Gazetecilik Bölümlerine ise gerekli alt yapı şartları oluşturulduğu takdirde öğrenci almayı planlamaktayız.\n\n
+
+Fakültemizin kapalı alanı 8300 metrekareden oluşmaktadır. 70 kişilik 12 adet derslik, 1 adet bilgisayar laboratuvarı bulunmaktadır. 1 adet 108 kişilik konferans salonu, 3 adet 108 kişilik amfi bulunmaktadır.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/guzelsanatlar_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/guzelsanatlar" />
+
+            <TextView
+                android:id="@+id/guzelsanatlar_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nBolu Abant İzzet Baysal Üniversitesi, Güzel Sanatlar Fakültesi, 28/03/1983 tarihli ve 2809 sayılı Kanunun ek 30'uncu maddesine göre 31/01/2005 tarihinde kurulmuştur. Fakülte bünyesinde 13/03/2008 tarihinde Resim Bölümü ve Müzik Bilimleri Bölümü, 10/03/2010 tarihinde Seramik Bölümü, 8/12/2010 tarihinde Görsel İletişim Tasarımı Bölümü, Çizgi Film - Animasyon Bölümü ile Geleneksel Türk Sanatları Bölümü, Yüksek öğretim Kurulunun 2547 Sayılı Kanun’un 2880 Sayılı Kanun’la değişik 7/d-2 maddesi uyarınca açılmıştır. 2010 yılı Aralık ayında fakülte binasının inşaatı tamamlanarak 2011-2012 eğitim öğretim yılında özel yetenek sınavı ile, Resim Ana sanat Dalına 25, Seramik Anasanat Dalına 9 öğrenci alıp eğitim- öğretime başlamıştır.\n\nYine Yükseköğretim Genel Kurulunun 24/04/2019 tarihli toplantısında 2547 Sayılı Kanunun 2880 Sayılı Kanunla Değişik 7/d-2 maddesi uyarınca, Temel Sanat Eğitimi Bölümü ile bu bölüme bağlı Temel Sanat Eğitimi Anabilim Dalı açılması (Sayı: 75850160-101.03.01- E.32735) uygun görülmüştür. Güzel Sanatlar Fakültesi öğretim elemanı kadrosunda yer alan 2 Profesör, 2 Doçent, 14 Dr. Öğretim Görevlisi, 3 Öğretim Görevlisi ve 3 Araştırma Görevlisinin yanı sıra 6 idari ve teknik personelle eğitim öğretime devam etmektedir. 2019-2020 Güz Dönemi itibariyle Resim Bölümünde 150, Seramik Bölümünde 67, Geleneksel Türk Sanatları Bölümünde 15 olmak üzere toplam kayıtlı öğrenci sayısı 232'dir.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/hukuk_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hukuk" />
+
+            <TextView
+                android:id="@+id/hukuk_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nBolu Abant İzzet Baysal Üniversitesi Hukuk Fakültesi, 06/12/2018 tarihli ve 413 sayılı Cumhurbaşkanlığı Kararı ile kurulmuştur.
+
+Fakültemizde 13 öğretim üyesi, 38 araştırma görevlisi bulunmaktadır. Araştırma Görevlilerimiz, Lisansüstü Eğitimlerini yapmak üzere
+
+Ülkemizde bulunan diğer devlet üniversitelerine 2547 sayılı Kanunun 35.maddesi gereğince görevlendirilmişlerdir.
+
+Fakültemiz binasının inşaatı başlamış olup, İzzet Baysal Vakfı tarafından yapılmaktadır\n\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/iktisadi_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iktisadi" />
+
+            <TextView
+                android:id="@+id/iktisadi_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nİktisadi ve İdari Bilimler Fakültemiz 1978 yılının Mart ayında Ankara İktisadi ve Ticari İlimler Akademisi’ne bağlı olarak “Bolu Sevk ve İdarecilik Yüksek Okulu” adı altında açılmıştır.  Ek sınıf olarak iki yüz iki (202) öğrenciyle eğitime başlayan Bolu Sevk ve İdarecilik Yüksek Okulu, ülkemizde bu isimle kurulan ilk ve tek okul olma özelliğine sahiptir. Okulun ilk öğretim üyeleri mevcut öğretim kadrosu dışında “Ankara İktisadi ve Ticari İlimler Akademisi” ile “Türkiye ve Ortadoğu Amme İdaresi Enstitüsü” nden gelmiştir.\n\n
+
+Fakültemiz ilerleyen zamanlarda 28.03.1983 tarihinde kabul edilen 2809 sayılı yasa ile Gazi Üniversitesi İktisadi ve İdari Bilimler Fakültesi’ne bağlanarak “Bolu İdari Bilimler Yüksekokulu” adını almıştır.\n\n
+
+“Bolu İdari Bilimler Yüksekokulu” ise 1987 yılında çıkarılan 3389 sayılı yasa ile “Gazi Üniversitesi Bolu İktisadi ve İdari Bilimler Fakültesi”ne dönüştürülmüştür.\n\n
+
+Fakültemiz 03.07.1992 tarih ve 3837 sayılı yasa ile kurulan Abant İzzet Baysal Üniversitesi’ne bağlanmıştır.\n\n
+
+İktisadi ve İdari Bilimler Fakültesi, İşletme, İktisat, Kamu Yönetimi, Uluslararası İlişkiler ve Maliye olmak üzere 5 bölümde lisans eğitimi faaliyeti vermektedir. Bu bölümlerin hepsinde yüksek lisans programı bulunurken; İktisat, İşletme, Kamu Yönetimi ve Uluslararası İlişkiler bölümlerinde doktora programı da bulunmaktadır.\n\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/ilahiyat_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ilahiyat" />
+
+            <TextView
+                android:id="@+id/ilahiyat_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nFakültemiz, 1992 yılında kurulan Bolu Abant İzzet Baysal Üniversitesinin (BAİBÜ) 16 fakültesinden biridir. 28/03/1983 tarihli ve 2809 sayılı Yükseköğretim Kurumları Teşkilatı Kanunu’na (Madde: Ek-16 ve 30) istinaden, 25/03/2012 tarihli ve 28244 sayılı Resmî Gazete’de yayımlanan 17/02/2012 tarihli ve 2852 sayılı Bakanlar Kurulu Kararı ile kurulmuştur. Fakültemiz, 2013-2014 akademik yılı bahar döneminde, inşası tamamlanan kendi binasına taşınmıştır.\n\n
+
+Kuruluş aşamasından itibaren Fakültemize öğrenci kabul edilmeye başlanmış, bu kapsamda öğretimin başladığı 2012-2013 akademik yılında hazırlık sınıfına ek yerleştirmeyle 60 öğrenci alınmıştır. İlköğretim Din Kültürü ve Ahlak Bilgisi Eğitimi Bölümü (İDKAB) ise, ilk olarak 2011-2012 döneminde Eğitim Fakültesi bünyesinde öğretime başlamış, 2012-2013 döneminde Yükseköğretim Kurulu Başkanlığının (YÖK) aldığı kararla 72 öğrencisiyle İlahiyat Fakültesine devredilmiştir. (YÖK’ün 17/04/2014 tarihli kararıyla İDKAB bölümüne öğrenci alımı durdurulmuştur.) Öte yandan ikinci öğretim programı, 2013-2014 akademik yılında faaliyete girmiş ve bu kapsamda toplam 230 öğrenciye eğitim verilmiştir. Fakültemiz ilk mezunlarını ise 2015 yılında vermiştir.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/mimar_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mimar" />
+
+            <TextView
+                android:id="@+id/mimar_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\n2007 yılında kurulan Mimarlık Bölümü, akademik kadrosunun zenginleştirilmesi ve lisans programının da istenilen düzeye erişmesiyle 2008 yılında eğitim öğretime başlamıştır. İlk mezunlarını 2011-2012 eğitim öğretim yılı sonunda vermiştir. Mimarlık Bölümü’nde, Bina Bilgisi, Yapı Bilgisi, Mimarlık Tarihi ve Restorasyon olmak üzere dört Ana Bilim Dallı bulunmaktadır. Önerilen dört yıllık lisans eğitimini başarıyla tamamlayan öğrenciler, mimar unvanına sahip olacaklardır. Bu süre zarfında genç mimar adaylarının özgür, yaratıcı, yenilikçi ve araştırmacı yanlarının ortaya çıkarılması ve geliştirilmesi, bölümün eğitim-öğretim alanındaki başlıca hedefidir.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/muhendislik_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/muhendislik" />
+
+            <TextView
+                android:id="@+id/muhendislik_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nFakültemiz 23 Eylül 1997 yılında Bakanlar Kurulu Kararı ile kurulmuştur. Fakültemiz Ülkemizin gelişmiş ticaret kuruluşlarını barındıran İstanbul, Kocaeli, Sakarya, Ankara gibi illere Mühendislik alanlarında hizmetler üretmek amacıyla eğitim öğretim ve ar-ge faaliyetlerine devam etmektedir. Fakültemiz bünyesinde Bilgisayar, Çevre, Elektrik-Elektronik, Endüstri, Gıda, İnşaat, Kimya ve Makine Mühendisliği bölümlerinde toplamda 2000 öğrenci bulunmaktadır. Ayrıca fakültemiz bünyesinde yer alan sekiz bölüm lisansüstü düzeyde de eğitim-öğretim faaliyetlerine devam etmektedir.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/saglik_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saglik" />
+
+            <TextView
+                android:id="@+id/saglik_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nBolu Sağlık Yüksekokulu ile Kemal Demir Fizik Tedavi ve Rehabilitasyon Yüksekokulu kapatılarak 28.03.1983 tarihli ve 2809 sayılı Kanunun ek 30 uncu maddesine göre 25.01.2019 tarih ve 30666 sayılı Resmi Gazete’de yayımlanan 669 sayılı Cumhurbaşkanı Kararı ile Bolu Abant İzzet Baysal Üniversitesi Sağlık Bilimleri Fakültesi kurulmuştur. Fakülte Dekanlığını Ekim 2021'e kadar Prof. Dr. Arzu İlçe sürdürmüştür.\n\n
+
+Fakültemiz bünyesinde Hemşirelik, Fizyoterapi ve Rehabilitasyon, Beslenme ve Diyetetik, Gerontoloji, Çocuk Gelişimi, Ortez-Protez, Acil Yardım ve Afet Yönetimi lisans programları bulunmaktadır.\n\n
+
+Fakültemizde görev yapan toplam 59 akademisyen ve 13 idari personel ile eğitim-öğretim, araştırma, danışmanlık ve idari faaliyetler yürütülmektedir. Fakültemizin 2022-2023 eğitim ve öğretim yılında lisans düzeyinde toplam 1251 öğrencisi bulunmaktadır.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/spor_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sporbilimleri" />
+
+            <TextView
+                android:id="@+id/spor_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nA.İ.B.Ü Beden Eğitimi ve Spor Yüksekokulu (BESYO) 1993-1994 öğretim yılında, Eğitim Fakültesine bağlı olarak kurulmuştur. 1995 Yılında Yüksekokul olmuştur ve 1993-94 öğretim yılından itibaren Beden Eğitimi Öğretmenliği Bölümüne, 2000-2001 öğretim yılından itibaren Antrenörlük Eğitimi Bölümüne ve 2003-2004 öğretim yılından itibaren de Spor Yöneticiliği Bölümüne öğrenci almaya başlamıştır.18.04.2019 tarih ve 30749 sayılı Resmi Gazete'de yayınlanan 17.04.2019 tarihli ve 968 sayılı Cumhurbaşkanlığı Kararı ile Üniversitemiz Beden Eğitimi ve Spor Yüksekokulu Kapatılmış; Spor Bilimleri Fakültesi kurulmuştur.\n\n
+
+     Spor Bilimleri Fakültesinin genel amacı Türk Milli Eğitiminin genel amacı doğrultusunda ilk ve orta öğretim kurumlarına Beden Eğitimi öğretmeni yetiştirmek, Gençlik ve Spor Bakanlığı ve Bağlı Kuruluşları merkez ve taşra teşkilatları ve spor kulüplerine çeşitli branşlarda antrenör, yönetici yetiştirmek ve ayrıca özel sektörde çok çeşitli alanlarda (turizm, endüstri, belediyeler vb.) görev yapabilecek lider yetiştirmektir. Ayrıca üniversite düzeyinde çalışabilecek, geleceğin akademisyenlerinin temelleri de burada atılmaktadır.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/tip_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tipfakultesi" />
+
+            <TextView
+                android:id="@+id/tip_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nFakültemiz 26/11/1996 tarih 96/9091 sayılı Bakanlar Kurulu kararı ile Resmî Gazetenin 12.03.1997 tarihli i ve 22931 sayılı kararı ile   kurulmuştur.\n\n
+
+Fakültemizde eğitime 06/10/2003 yılında, 17 ana dalda ve 27 öğrencisi ile başlanmıştır.\n\n
+
+2003 yılından günümüze kadar geçen sürede büyümeye devem eden fakültemiz de son hali ile 40 ana dalda 139 öğretim üyesi, 210 tıpta uzmanlık öğrencisi ve 935 öğrencisi ile eğitim-öğretime devam edilmektedir.\n\n
+
+Fakültemizde;\n\n
+
+Temel Tıp Bölümleri: Anatomi Anabilim Dalı, Fizyoloji Anabilim Dalı, Histoloji ve Embriyoloji Anabilim Dalı, Tıbbi Biyokimya Anabilim Dalı, Tıbbi Biyoloji Anabilim Dalı, Tıbbi Mikrobiyoloji Anabilim Dalı, Tıbbi Parazitoloji Anabilim Dalı, Biyoistatistik ve Tıbbi Bilişim Anabilim Dalı, Biyofizik Anabilim Dalı\n\n
+
+Dahili Tıp Bölümler: Acil Tıp Anabilim Dalı, Adli Tıp Anabilim Dalı, Aile Hekimliği Anabilim Dalı, Çocuk Sağlığı ve Hastalıkları Anabilim Dalı, Çocuk ve Ergen Ruh Sağlığı ve Hastalıkları Anabilim Dalı, Deri ve Zührevi Hastalıklar Anabilim Dalı, Enfeksiyon Hastalıkları Anabilim Dalı, Fiziksel Tedavi ve Rehabilitasyon Anabilim Dalı, Göğüs Hastalıkları Anabilim Dalı, Halk Sağlığı Anabilim Dalı, İç Hastalıkları Anabilim Dalı, Kardiyoloji Anabilim Dalı, Nöroloji Anabilim Dalı, Nükleer Tıp Anabilim Dalı, Radyoloji Anabilim Dalı, Ruh Sağlığı ve Hastalıkları Anabilim Dalı, Tıbbi Farmakoloji Anabilim Dalı, Tıbbi Genetik Anabilim Dalı\n\n
+
+Cerrahi Tıp Bölümler: Anesteziyoloji ve Reanimasyon Anabilim Dalı, Beyin ve Sinir Cerrahisi Anabilim Dalı, Çocuk Cerrahisi Anabilim Dalı, Genel Cerrahi Anabilim Dalı, Göğüs Cerrahisi Anabilim Dalı, Göz Hastalıkları Anabilim Dalı, Kadın Hastalıkları ve Doğum Anabilim Dalı, Kalp ve Damar Cerahisi Anabilim Dalı, Kulak, Burun ve Boğaz Hastalıkları Anabilim Dalı, Ortopedi ve Travmatoloji Anabilim Dalı, Plastik, Rekonstrüktif ve Estetik Cerrahi Anabilim Dalı, Tıbbi Patoloji Anabilim Dalı, Üroloji Anabilim Dalları bulunmaktadır.\n\n
+
+Fakültemizin temel hedefi; güçlü bir altyapıya sahip ve bunları kendi sağlık alanında kullanabilen, analitik düşünebilen, liderlik ve yaratıcılık niteliklerine sahip, gerekli bilgi ve tecrübeyi etkin ve verimli kullanabilen, problemlere çabuk, pratik ve doğru çözümler bulabilen, konular arasında kolay ilişkiler kurarak yeni çözümler üretebilen ve dünyadaki gelişmeleri takip edip kendini sürekli geliştiren, hekimlik mesleki sorumluluğunu taşıyabilen hekimler yetiştirmektir.\n"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/ziraat_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ziraat" />
+
+            <TextView
+                android:id="@+id/ziraat_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nTARİHÇE\n\nBolu Abant İzzet Baysal Üniversitesi Ziraat ve Doğa Bilimleri Fakültesi 2013 yılında kurulmuş olup 2014-2015 Eğitim-Öğretim yılında tarla bitkileri bölümüyle ilk öğrencilerini almaya başlamış ve 2017-2018 eğitim öğretim döneminde ilk mezunlarını vermiştir. Hızlı ve stratejik bir şekilde büyüyen genç Fakültemiz öncelikli olarak Bolu ve bölge tarımının gelişmesini hedef edinmiştir. Bu hedef doğrultusunda güçlü bir alt yapı ile Ziraat ve Doğa Bilimleri alanında ulusal ve uluslararası yenilikleri takip eden genç, dinamik ve kendini sürekli geliştiren Ziraat Mühendisleri yetiştirmeyi amaçlamıştır.\n\n
+
+     Fakültemiz bünyesinde Bahçe Bitkileri, Bitki Koruma, Kanatlı Hayvan Yetiştiriciliği, Tarla Bitkileri, Tarımsal Biyoteknoloji, Tohum Bilimi ve Teknolojisi, Yaban Hayatı Ekolojisi ve Yönetimi, Zootekni Bölümlerinin yanı sıra 2017 yılında Tarım Ekonomisi Bölümü açılmıştır.  Bahçe Bitkileri, Bitki Koruma, Kanatlı Hayvan Yetiştiriciliği, Tarla Bitkileri Bölümleri ile birlikte 2017-2018 yılı eğitim-öğretim döneminde Yaban Hayatı Ekolojisi ve Yönetimi bölümünde de lisans ve lisansüstü eğitim-öğretim verilmeye başlanmıştır. Fakültemizde 2017-2018 eğitim-öğretim yılı itibariyle 316 lisans, 76 tezli yüksek lisans ve 11 doktora öğrencisi bulunmaktadır. 2018-2019 eğitim öğretim döneminde, Tohum Bilimi ve Teknolojisi bölümü lisans öğrencileri almaya başlayacaktır.\n"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

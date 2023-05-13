@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LoginPageApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dishekimligi">\nTARİHÇE\n
+Diş Hekimliği Fakültemiz, Bolu Abant İzzet Baysal Üniversitesi bünyesinde 26/02/2010 tarih ve 27505 sayılı Resmi Gazetede yayınlanan 01/02/2010 tarih ve 2010/103 sayılı kararname ile kurulmuştur. 2011 yılından itibaren hasta tedavilerine başlanmış olup, ilk lisans öğrencilerimiz 2011-2012 eğitim öğretim yılında eğitimlerine başlamıştır. İlk mezun 2016 yılında verilmiştir.
+
+Fakültemiz, üst düzeyde eğitim-öğretim (5 yıl), bilimsel araştırma ve yayın yapan bir yüksek öğretim kurumu olarak görev yapmaktadır. Fakültemiz aynı zamanda yaptığı klinik faaliyetleriyle bölge halkının ağız-diş sağlığı konusunda üst düzeyde koruyucu ve tedavi edici hizmet sunmaktadır.
+
+Gerek eğitim-öğretim gerekse klinik hizmetleri mükemmel düzeyde yapabilmek amacıyla, Yüksek Öğretim Kurumu tarafından kabul edilen Klinik Bilimleri Bölümü altında (8sekiz) Anabilim Dalı kurularak faaliyetlerine devam etmektedir.\n </string>
+</resources>
